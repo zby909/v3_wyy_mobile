@@ -1,0 +1,10 @@
+//全局覆盖样式 类名慎重
+.el-loading-mask {
+  .el-icon-loading {
+    font-size: 30px;
+  }
+  .el-loading-text {
+    margin-top: 15px;
+    font-size: 15px;
+  }
+}

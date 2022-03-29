@@ -3,12 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "vue-cli-service serve --mode development",
+    "build:prod": "vue-cli-service build --mode production",
+    "build:test": "vue-cli-service build --mode test --report",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "big.js": "^6.1.1",
+    "clipboard": "^2.0.10",
     "core-js": "^3.8.3",
+    "dayjs": "^1.11.0",
+    "normalize.css": "^8.0.1",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3"
   },

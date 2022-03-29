@@ -1,0 +1,6 @@
+# Ignore artifacts:
+dist
+node_modules
+/src/styles/font
+# Ignore all HTML files:
+*.html
