@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <GLBgIcon class="vue_icon" :img="require('@/assets/logo.png')" />
+    <div class="sss">123</div>
   </div>
 </template>
 
@@ -21,6 +22,9 @@ export default defineComponent({
   .vue_icon {
     width: 100px;
     height: 150px;
+  }
+  .sss {
+    color: $zby;
   }
 }
 </style>
