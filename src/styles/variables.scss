@@ -1,16 +1,5 @@
-// sidebar
-$menuText: #bfcbd9;
-
-// the :export directive is the magic sauce for webpack
-// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
-:export {
-  menuText: $menuText;
-}
-
-$insColor: #dce6f1;
-$subColor: #fde9d9;
-$delColor: #f2dcdb;
-$zby: #f00;
+$wyyRed: #fe0335;
+$linearColor: linear-gradient(#ff7366, #fe0335);
 
 // @mixin clearfix {
 //   &:after {

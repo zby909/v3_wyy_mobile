@@ -9,6 +9,7 @@
 
 <script>
 export default {
+  name: 'EmptyCpn',
   props: {
     description: {
       type: String,
